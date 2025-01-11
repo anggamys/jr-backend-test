@@ -37,7 +37,7 @@ Prisma digunakan sebagai ORM untuk interaksi dengan database. Berikut adalah lan
 Buat file `.env` di root project, kemudian tambahkan konfigurasi berikut:
 
 ```env
-DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE_NAME>"
+DATABASE_URL="mysql://<USERNAME>:<PASSWORD>@<HOST>:<PORT>/<DATABASE_NAME>"
 JWT_SECRET=jr-backend-testing
 ```
 
